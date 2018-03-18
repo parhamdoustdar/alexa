@@ -1,5 +1,8 @@
 # alexa
 
+[![GoDoc](https://godoc.org/github.com/parhamdoustdar/alexa?status.svg)](https://godoc.org/github.com/parhamdoustdar/alexa)
+[![Go Report Card](https://goreportcard.com/badge/github.com/parhamdoustdar/alexa)](https://goreportcard.com/report/github.com/parhamdoustdar/alexa)
+
 This project is created to make it easier to create Alexa skills written in Go.
 
 Very recently, Amazon announced [support for Go]() in AWS Lambda. However, up until this point, there was no way of easily creating an Alexa skill, while using the power of Go's static typing system.
