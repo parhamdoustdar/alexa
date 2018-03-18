@@ -27,7 +27,7 @@ const (
 	ErrorTypeInternalError            ErrorType = "INTERNAL_ERROR"
 )
 
-func NewSessionEndedRequestFromRequest(request Request) (*SessionEndedRequest, error) {
+func newSessionEndedRequestFromRequest(request Request) (*SessionEndedRequest, error) {
 	launchRequest, err := newLaunchRequestFromRequest(request)
 	if err != nil {
 		return nil, err

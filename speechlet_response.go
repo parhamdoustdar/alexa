@@ -74,7 +74,7 @@ func (speechletResponse *SpeechletResponse) ShowStandardCard(title, smallImageUR
 	speechletResponse.response["card"] = card
 }
 
-func (speechletResponse *SpeechletResponse) ShowLinkAccountResponse() {
+func (speechletResponse *SpeechletResponse) ShowLinkAccountCard() {
 	card := map[string]string{
 		"type": "LinkAccount",
 	}

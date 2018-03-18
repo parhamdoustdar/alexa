@@ -42,7 +42,7 @@ func (router *Router) handle(context context.Context, request Request) (interfac
 
 		return router.LaunchRequestHandler(context, launchRequest)
 	case RequestTypeSessionEndedRequest:
-		sessionEndedRequest, err := NewSessionEndedRequestFromRequest(request)
+		sessionEndedRequest, err := newSessionEndedRequestFromRequest(request)
 		if err != nil {
 			return nil, err
 		}
